@@ -1,0 +1,142 @@
+
+/* *************************table************************************* */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(108, 107, 107, 0.304);
+  }
+  
+  table thead {
+    background: #3b5998; 
+    color: white;
+    box-shadow: 0 4px 8px rgba(108, 107, 107, 0.304);    
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+ table tr:nth-child(even){
+    background-color: rgba(145, 141, 141, 0.233);
+ }
+  
+  table img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .explore-icon {
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type="search"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: auto;
+    background-color: #eaecef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input[type="search"]:focus::placeholder{
+    color: transparent;   
+  }
+ 
+  input[type="search"]:focus {
+    border-color: #3b5998;
+    box-shadow: 0 0 5px rgba(59, 89, 152, 0.5);
+  }
+  
+  @media screen and (max-width: 320px) {
+    table {
+      font-size: 12px;
+    }
+    .explore-icon {
+      font-size: 30px;
+    }
+    input[type="search"] {
+      font-size: 12px;
+      width: auto;
+    }
+    .no-data{
+        height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 321px) and (max-width: 425px) {
+    table {
+      font-size: 14px;
+    }
+    input[type="search"] {
+      font-size: 14px;
+      width: auto;
+    }
+    .no-data{
+        height: 60vh;
+    }
+   
+  }
+  
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    table {
+      font-size: 16px;
+    }
+    input[type="search"] {
+      font-size: 15px;
+      width: auto;
+    }
+    .no-data{
+        height: 65vh;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    table {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    table {
+      font-size: 18px;
+    }
+    .no-data{
+        height: 80vh;
+    }
+  }
+
+  .no-data {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 80vh;
+   font-size: 20px !important;
+  }
+  
+  input[type="date"]{
+    background-color: #eaecef;
+  }
+  input[type="date"]:focus{
+    box-shadow: 0 0 5px rgb(12, 134, 191);
+  }
+  
+/* *************************************************************** */
+/* dashboard */
+.card-body-1{
+  background-color: #eaecef;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  border: none;
+}
+
+/* *********** */

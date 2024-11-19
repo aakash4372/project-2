@@ -1,0 +1,29 @@
+.table-container{
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+table{
+    font-size: 1 rem;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+thead{
+    background-color: rgb(110, 110, 245);
+    color: white;
+}
+.table-head, .table-data{
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+.table-row-2:hover{
+    background-color: rgb(205, 202, 202);
+}
+@media (max-width: 768px){
+    .table-head, .table-data{
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+}
